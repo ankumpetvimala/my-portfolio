@@ -2,7 +2,7 @@
 
 ##  Objective
 
-To install and configure Git on a local machine and push a simple project to a remote repository (GitHub or GitLab) for version control and collaboration.
+- To install and configure Git on a local machine and push a simple project to a remote repository (GitHub or GitLab) for version control and collaboration.
 
 ---
 
@@ -20,12 +20,12 @@ To install and configure Git on a local machine and push a simple project to a r
 
 ### 1. Git Installation
 
-Download and install Git from the official site:  
- [https://git-scm.com/downloads](https://git-scm.com/downloads)
+   Download and install Git from the official site:  
+    [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-Verify installation:
+   Verify installation:
 
-  git --version
+     git --version
 
 ### 2. Git Configuration
 
@@ -59,17 +59,17 @@ Verify installation:
 
 #### Create a repository on GitHub:
 
-Go to: https://github.com/new
+   Go to: https://github.com/new
 
-Name it: my-portfolio
+   Name it: my-portfolio
 
-Don't initialize with README (empty repo)
+   Don't initialize with README (empty repo)
 
 #### Add remote and push:
 
-  git remote add origin https://github.com/your-username/my-portfolio.git
+    git remote add origin https://github.com/your-username/my-portfolio.git
 
-  git branch -M main
+    git branch -M main
 
-  git push -u origin main
+    git push -u origin main
 
