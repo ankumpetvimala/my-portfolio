@@ -6,7 +6,10 @@ To install and configure Git on a local machine and push a simple project to a r
 
 ---
 
-## 🛠 Tools Used
+<img width="1366" height="768" alt="Homepage" src="https://github.com/user-attachments/assets/84b51f0f-edd6-4c44-9d29-aa5d0bc357a2" />
+
+
+## Tools Used
 
 - Git
 - GitHub
@@ -26,31 +29,31 @@ Verify installation:
 
 ### 2. Git Configuration
 
-Configure Git with username and email:
+#### Configure Git with username and email:
 
-  git config --global user.name "Your Name"
+    git config --global user.name "Your Name"
 
-  git config --global user.email "your.email@example.com"
+    git config --global user.email "your.email@example.com"
 
-Check configuration:
+#### Check configuration:
 
-  git config --list
+    git config --list
 
 ### 3. 📁 Project Setup
    
-Create a new directory and a basic HTML file:
+#### Create a new directory and a basic HTML file:
 
-mkdir my-portfolio
+      mkdir my-portfolio
 
-cd my-portfolio
+      cd my-portfolio
 
 ### 4. Initialize Git Repository
    
-git init
+     git init
 
-git add index.html
+     git add index.html
 
-git commit -m "Initial commit - added index.html"
+     git commit -m "Initial commit - added index.html"
 
 ### 5. Push to GitHub
 
@@ -64,9 +67,9 @@ Don't initialize with README (empty repo)
 
 #### Add remote and push:
 
-git remote add origin https://github.com/your-username/my-portfolio.git
+  git remote add origin https://github.com/your-username/my-portfolio.git
 
-git branch -M main
+  git branch -M main
 
-git push -u origin main
+  git push -u origin main
 
