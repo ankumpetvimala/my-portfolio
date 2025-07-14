@@ -6,7 +6,7 @@
 
 ---
 
-<img width="1366" height="768" alt="Homepage" src="https://github.com/user-attachments/assets/84b51f0f-edd6-4c44-9d29-aa5d0bc357a2" />
+![Home1](https://github.com/user-attachments/assets/61003763-b693-4c33-a74a-3ef5976d62bd)
 
 
 ## Tools Used
